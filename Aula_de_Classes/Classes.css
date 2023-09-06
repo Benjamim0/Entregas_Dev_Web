@@ -1,0 +1,18 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+    background-color: cadetblue;
+}
+
+/* Coloca toda os principais */
+ /* p.class {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+background-color: crimson;
+}  
+h1 {
+    background-color: blue; 
+}*/
+#p2 {
+    color: cadetblue;
+}
