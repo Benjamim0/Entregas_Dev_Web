@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+
+    text-align: center;
+    border: 2px;
+    padding: 2rem;
+    margin: 4rem;
+    background-color: #AD7E53;
+    border-style: double, ;
+    border-color: #7A4616;
+
+}
+
+p {
+    text-align: right;
+    margin: 4px;
+    padding: 4rem;
+    font-size: 0,50cm;
+
+
+}
+body {
+    background-image: url(cruz.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    text-align: left;
+    margin: 4px;
+    padding: 4rem;
+}
