@@ -1,0 +1,25 @@
+div {
+    border-radius: 8px;
+    margin: left;
+    height: 150px;
+    width: 150px;
+    border: solid 2px cadetblue;
+    border-color: black;
+    color: aliceblue;
+}
+
+
+.frist {
+    background-color: blue;
+    float: right;
+}
+
+.second {
+    background-color: crimson;
+    float: none;
+}
+
+.third {
+    background-color: blueviolet;
+    float: right;
+}

@@ -1,38 +1,47 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
+@charset "utf-8";
 
+body {
+    background-attachment: scroll;
+    background-image: url(cruz.jpg);
+    background-repeat:no-repeat;
+    background-color: #B24235;
+    color: #191970;
+    font-family: Arial, Verdana, sans-serif;
 }
 
 h1 {
-
+    background-color: #66140B;
+    color: black;
     text-align: center;
-    border: 2px;
-    padding: 2rem;
-    margin: 4rem;
-    background-color: #AD7E53;
-    border-style: double, ;
-    border-color: #7A4616;
-
+    line-height: 200%;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 0.5em;
 }
 
 p {
-    text-align: right;
-    margin: 4px;
-    padding: 4rem;
-    font-size: 0,50cm;
-
-
+    color: #191970;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: 8px;
 }
-body {
-    background-image: url(cruz.jpg);
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+
+img {
+    height: 240px;
+    width: 320px;
+}
+
+figure {
+    width: 320px;
+    padding: 5px;
+    border: 2px solid #000000;
+}
+
+figcaption {
+    text-align: center;
+    font-family: Papyrus, fantasy;
 }
 
 footer {
-    text-align: left;
-    margin: 4px;
-    padding: 4rem;
+    color: #333333;
+    font-size: .75em;
+    font-style: italic;
 }
