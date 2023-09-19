@@ -1,0 +1,15 @@
+.span {
+    color: darkcyan;
+}
+.dp1 {
+    display: none;
+}
+.dp2 {
+    display: inline;
+}
+.dp3 {
+    display: block;
+}
+.dp4 {
+    display: inline-block;
+}
