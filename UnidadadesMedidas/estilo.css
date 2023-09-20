@@ -5,6 +5,7 @@ body {
     background-image: url(cruz.jpg);
     background-repeat:no-repeat;
     background-color: #B24235;
+    background-size: cover;
     color: #191970;
     font-family: Arial, Verdana, sans-serif;
 }
