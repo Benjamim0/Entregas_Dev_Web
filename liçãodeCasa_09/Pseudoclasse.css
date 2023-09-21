@@ -2,7 +2,7 @@ footer:first-of-type {
     color: blue
 }
 
-.Preços:first-child {
+.Preços:first-child:first-child {
     background-color: blueviolet;
     color: aliceblue;
 
@@ -13,7 +13,10 @@ footer:first-of-type {
     background-color: darkorchid;
 }
 
-.Preços:nth-child(3) 
+.Preços:nth-child(3) {
+    color: #34f934;
+    background-color: black;
+} 
 
 ::selection {
     color: darksalmon;
@@ -24,3 +27,4 @@ p::selection {
     color: white;
     background-color: cadetblue;
 }
+
