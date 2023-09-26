@@ -1,0 +1,37 @@
+.container {
+    border: 1px solid cadetblue;
+    max-width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;  /* linha que delimita a direção do container */
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.box {
+    border: 1px solid darkblue;
+    margin: 2px;
+    height: 100px;
+    width: 100px;
+    background-color: #B407FA;
+    color: white;
+    border-radius: 5px;
+
+}
+#cxa01 {
+    order: 9;
+}
+
+#cxa02 {
+    flex-shrink: 6;
+}
+#cxa03 {
+    align-self: center;
+}
+
+#cxa06 {
+    align-self: center;
+}
+#cxa09 {
+    align-self: center;
+}
