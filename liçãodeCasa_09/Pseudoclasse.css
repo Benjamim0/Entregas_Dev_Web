@@ -2,29 +2,51 @@ footer:first-of-type {
     color: blue
 }
 
-.Preços:first-child:first-child {
-    background-color: blueviolet;
-    color: aliceblue;
-
+.Preços:first-child {
+    color: white;
+    background-color: black;
 }
 
 .Preços:nth-child(2) {
-    color: aliceblue;
-    background-color: darkorchid;
+    color: black;
+    background-color: white;
 }
 
 .Preços:nth-child(3) {
-    color: #34f934;
+    color: white;
     background-color: black;
-} 
+}
+
+.Preços:last-child {
+    color: black;
+    background-color: white;
+}
 
 ::selection {
     color: darksalmon;
     background-color: blue;
 }
 
-p::selection {
-    color: white;
-    background-color: cadetblue;
+p::first-letter {
+    font-size: larger;
 }
 
+h1:active {
+    color: #34f934;
+}
+
+h2:hover {
+    color: white;
+    background-color: cadetblue;
+
+}
+
+p:hover {
+    background-color: darkorchid;
+    border: 20px;
+}
+
+h2 {
+    border: 2px;
+    border-color: black;
+}
