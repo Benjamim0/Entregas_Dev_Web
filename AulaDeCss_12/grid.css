@@ -1,15 +1,30 @@
 @charset "utf-8";
-.wrapper {
- display: grid;
- grid-template-columns: 70% 30%;
- grid-gap: 1em;
- overflow-x: hidden;
+
+.container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 2px;
 }
-.wrapper>article {
+
+.container>article {
     background: #a39faa;
     padding: 1em;
-   }
-   .wrapper>article:nth-child(odd) {
+    border: solid;
+
+}
+
+.container>article:nth-child(odd) {
     background: #b5b5b5;
-   }
-   
+}
+
+.container_01 {
+    display: grid;
+    background-color: lightslategrey;
+}
+.container_01>p {
+    column-gap: 20px;
+
+}
+.pgf01 {
+    align-items: end;
+}
