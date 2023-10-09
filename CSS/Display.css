@@ -1,4 +1,19 @@
-Exemplo Clear CSS
+.span {
+    color: darkcyan;
+}
+.dp1 {
+    display: none;
+}
+.dp2 {
+    display: inline;
+}
+.dp3 {
+    display: block;
+}
+.dp4 {
+    display: inline-block;
+}
+/* Exemplo Clear CSS 
 
 
 Sem clear
@@ -12,4 +27,4 @@ Com clear
 
 div3
 div4 - Aqui, clear: left; move div4 para baixo do div3, que está com o float confogurado com left.
-Isso acontece, porque a propriedade clear: left deabilita o float à esquerda.
+Isso acontece, porque a propriedade clear: left deabilita o float à esquerda.*/

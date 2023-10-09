@@ -9,7 +9,7 @@ body {
 }
 
 #showcase {
-    background-image: url('01.beachshowcase.jpg');
+    background-image: url('/IMG/01.beachshowcase.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
