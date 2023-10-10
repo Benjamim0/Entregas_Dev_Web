@@ -7,3 +7,4 @@ const JaNamora = false //boolean
 
 alert ("Jesus te ama")
 let name = window.prompt("Qual seu nome?")
+let mensagem = window.prompt("Seja bem-vindo")
