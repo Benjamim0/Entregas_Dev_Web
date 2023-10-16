@@ -20,6 +20,7 @@ console.log(oracao [1]);
 let variavel = 'Conheça nossos produtos'
 let novavariavel = variavel.replace('conheça', 'produtos') 
 console.log(novavariavel);
+console.log(novavariavel.toLowerCase())
 
 let texto = '   Jesus te ama   '.trim()
 console.log(texto);
