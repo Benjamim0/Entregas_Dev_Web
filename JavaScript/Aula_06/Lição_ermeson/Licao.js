@@ -8,7 +8,7 @@ console.log(times.length)
 times.shift()
 console.log(times); 
 console.log(times.length)
-
+times.push('City')
 times.unshift('Barcelona')
 console.log(times);
 
