@@ -40,8 +40,8 @@ function conversao (real) {
 console.log(`Seus ${reais} reais equivalem a ${conversao(reais).toFixed(1)} euros`);
 // BOTÃO RETORNÁVEL
 const clique = () => {
-    console.log(`Soma `);
+    console.log(`Você está clicando`);
 }
-const hover = () => {
+const houver = () => {
     console.log(`Passe o mouse.`);
 }
