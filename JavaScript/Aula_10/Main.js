@@ -26,5 +26,5 @@ class carros {
     }
 }
 let carro1 = new carros ("lamborghini" ,"huracan" ,"muito dinheiro", 2020 ,"preto")
-let carro2 = new carros ("lamborghini" ,"diablo" ,"muito dinheiro", 2019 ,"preto")
-let carro3 = new carros ("lamborghini" ,"spider" ,"muito dinheiro", 2019 ,"preto")
+let carro2 = new carros ("lamborghini" ,"diablo" ,"muito dinheiro", 2019 ,"vermelho")
+let carro3 = new carros ("lamborghini" ,"spider" ,"muito dinheiro", 2019 ,"cinza")
