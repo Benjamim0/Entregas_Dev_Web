@@ -28,5 +28,5 @@ function mediaAluno() {
   let nota2 = Number(document.querySelector("#nt2").value);
   let result = document.querySelector("#txt");
   const media = (nota1 + nota2) / 2;
-  result.innerHTML = `A media é: ${media}`;
+  result.innerHTML = `O imc é: ${media}`;
 }
