@@ -7,22 +7,22 @@ const Conteudo = () => {
       <div>
         <article>
           <h2>Biblia</h2>
-          <p>As profecias estão se cumprindo e Jesus está voltando!</p>
+          <p>Jesus é o pão da vida e cuida de tudo debaixo do céu</p>
           <div>
             <p>{lido}{contador}</p>
             <button onClick={() => setLido('Read:')}>
-              Read
+              lido
             </button>
             <button onClick={() => setContador('Like')}>
-              Lindo
+              Jesus!!!!!!!
             </button>
 
             <button onClick={() => setContador('Like')}>
-              Gostei
+            Curti
             </button>
 
             <button onClick={() => setContador('Deslike')}>
-              Não Gostei
+            Não Curti
             </button>
           </div>
 
@@ -33,4 +33,4 @@ const Conteudo = () => {
   }
 
 
-export default Conteudo;
+  export default Conteudo;
